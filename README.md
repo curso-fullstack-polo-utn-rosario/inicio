@@ -32,3 +32,6 @@
 
 Class Room
 https://classroom.google.com/u/1/c/Mjk4MTM4OTk0NDMy
+
+## Canal videos front
+https://www.youtube.com/channel/UCkRACqaN5XpgH0P5hyqpQEw/videos
