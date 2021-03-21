@@ -1,0 +1,114 @@
+<!--
+Filename: e:\Curso\Fullstack Developer Junior (mar-21  AVINC-130)\Repo\PlussRolf\Ejercicios\2021-17-03\index.html
+Path: e:\Curso\Fullstack Developer Junior (mar-21  AVINC-130)\Repo\PlussRolf\Ejercicios\2021-17-03
+Created Date: Sunday, March 21st 2021, 3:25:14 am
+Author: Román Schiavón
+
+Copyright (c) 2021 Your Company
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="main.js"></script>
+        <style>
+            table.withBorder tr{
+             outline: thin solid black;
+            }
+
+            h1.redText {
+                color: red;
+            }
+
+            div.greenText h1, p {
+                color: green;
+            }
+
+            p.orangeText {
+                font: 40px bold italic orange;
+            }
+
+            div.drawBox {
+                height: 200px;
+                width: 200px;
+                background-color: green;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <div>
+            <h1 class="redText">Ejercicio P1</h1>
+            <p>Formulario buscador, tipo google</p>
+
+            <form>
+                <label>Google:</label><input type="search"></input><button>Buscar</button><br>
+                
+            </form>
+            <hr>
+        </div>
+
+        <div class="greenText">
+            <h1>Ejercicio P2</h1>
+            <p>Formulario login</p>
+
+            <form>
+                <label>Usuario:</label><input type="text"></input><br>
+                <label>Contraseña:</label><input type="password"></input><br>
+                <button>Enviar datos</button>
+            </form>
+            <hr>
+        </div>
+
+        <div>
+            <h1>Ejercicio P3</h1>
+            <p class="orangeText">Formulario inputs</p>
+
+            <form>
+                <label>Nombre:</label><input type="text"></input><br>
+                <label>Apellidos:</label><input type="text"></input><br>
+                <label>Contraseña:</label><input type="password"></input><br>
+                <label>casillña de verificación:</label><input type="checkbox"></input><br>
+                <label>casillña de selección:</label><input type="radio"></input><br>
+                <label>selección de archivo:</label><input type="file"></input><br>
+                <label>botón de envio:</label><button>Enviar</button><br>
+            </form>
+            <hr>
+        </div>
+
+        <div>
+            <h1>Ejercicio P4</h1>
+            <p>Table</p>
+
+            <table class="withBorder">
+                <thead>
+                    <tr><td colspan="3" style="text-align: center;">Números de telefono</td></tr>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Teléfono</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Pablo</td>
+                        <td>Garcia</td>
+                        <td>123456789</td>
+                    </tr>
+                    <tr>
+                        <td>Pedro</td>
+                        <td>Sanchez</td>
+                        <td>234567890</td>
+                    </tr>
+                    <tr>
+                        <td>Antonio</td>
+                        <td>Fernandez</td>
+                        <td>345678901</td>
+                    </tr>
+                </tbody>
+            </table>
+            <hr>
+        </div>
+        <div class="drawBox"></div>
+    </body>
+</html>
